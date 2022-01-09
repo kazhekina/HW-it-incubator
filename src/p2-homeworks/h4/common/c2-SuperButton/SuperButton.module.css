@@ -1,0 +1,51 @@
+.default {
+    background: mediumslateblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 3px #999;
+    padding: 5px 8px;
+}
+
+.default:disabled {
+    opacity: 0.6;
+}
+
+.default:hover {
+    background: black;
+    color: white;
+}
+
+.default:active{
+    box-shadow: 0 1px #666;
+    transform: translateY(2px)
+}
+
+
+
+.red {
+    background: red;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 3px #999;
+    padding: 5px 8px;
+}
+
+.red:hover {
+    background: black;
+    color: white;
+}
+
+.red:active{
+    box-shadow: 0 1px #666;
+    transform: translateY(2px)
+}

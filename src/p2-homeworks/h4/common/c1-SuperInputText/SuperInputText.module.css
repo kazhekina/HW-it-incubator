@@ -1,0 +1,21 @@
+.superInput {
+    border: 2px solid mediumslateblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 8px;
+}
+
+.errorInput {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 8px;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,31 @@
+.App {
+
+    background-image: url("https://images.wallpaperscraft.com/image/single/board_black_line_texture_background_wood_55220_2560x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.titleApp {
+    display: block;
+    text-align: center;
+    background-color: mediumslateblue;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.title {
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+

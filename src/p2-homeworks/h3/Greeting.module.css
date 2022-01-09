@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.someClass {
+    border: 2px solid mediumslateblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 8px;
+}
+
+.error {
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 8px;
+}
+.errorText {
+    color: red;
+}
+.text {
+    color: white;
+}
+
+.button {
+    background-color: black;
+    color: mediumslateblue;
+    border: 2px solid mediumpurple;
+    border-radius: 5px;
+    width: 60px;
+    margin: 10px;
+}
+
+.default {
+    background: mediumslateblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 3px #999;
+    padding: 5px 8px;
+}
+
+.default:disabled {
+    opacity: 0.6;
+}
+
+.default:hover {
+    background: black;
+    color: white;
+}
+
+.default:active{
+    box-shadow: 0 1px #666;
+    transform: translateY(2px)
+}
