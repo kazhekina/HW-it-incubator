@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/HW-it-incubator/static/css/main.7cad22d5.chunk.css",
-    "main.js": "/HW-it-incubator/static/js/main.6d5d4fe9.chunk.js",
-    "main.js.map": "/HW-it-incubator/static/js/main.6d5d4fe9.chunk.js.map",
+    "main.css": "/HW-it-incubator/static/css/main.a2679884.chunk.css",
+    "main.js": "/HW-it-incubator/static/js/main.00bf2b48.chunk.js",
+    "main.js.map": "/HW-it-incubator/static/js/main.00bf2b48.chunk.js.map",
     "runtime-main.js": "/HW-it-incubator/static/js/runtime-main.617bb1ac.js",
     "runtime-main.js.map": "/HW-it-incubator/static/js/runtime-main.617bb1ac.js.map",
-    "static/js/2.540d1594.chunk.js": "/HW-it-incubator/static/js/2.540d1594.chunk.js",
-    "static/js/2.540d1594.chunk.js.map": "/HW-it-incubator/static/js/2.540d1594.chunk.js.map",
+    "static/js/2.f16067c5.chunk.js": "/HW-it-incubator/static/js/2.f16067c5.chunk.js",
+    "static/js/2.f16067c5.chunk.js.map": "/HW-it-incubator/static/js/2.f16067c5.chunk.js.map",
     "index.html": "/HW-it-incubator/index.html",
-    "static/css/main.7cad22d5.chunk.css.map": "/HW-it-incubator/static/css/main.7cad22d5.chunk.css.map",
-    "static/js/2.540d1594.chunk.js.LICENSE.txt": "/HW-it-incubator/static/js/2.540d1594.chunk.js.LICENSE.txt"
+    "static/css/main.a2679884.chunk.css.map": "/HW-it-incubator/static/css/main.a2679884.chunk.css.map",
+    "static/js/2.f16067c5.chunk.js.LICENSE.txt": "/HW-it-incubator/static/js/2.f16067c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.617bb1ac.js",
-    "static/js/2.540d1594.chunk.js",
-    "static/css/main.7cad22d5.chunk.css",
-    "static/js/main.6d5d4fe9.chunk.js"
+    "static/js/2.f16067c5.chunk.js",
+    "static/css/main.a2679884.chunk.css",
+    "static/js/main.00bf2b48.chunk.js"
   ]
 }
