@@ -21,3 +21,10 @@
     font-weight: bold;
     padding: 10px;
 }
+.wrapperInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 120px;
+}

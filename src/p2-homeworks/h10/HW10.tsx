@@ -1,5 +1,6 @@
 import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from '../h10/HW10.module.css';
 
 function HW10() {
     // useSelector, useDispatch
@@ -12,9 +13,9 @@ function HW10() {
     };
 
     return (
-        <div>
-            <hr/>
-            homeworks 10
+
+            <div className={s.wrapperPage}>
+                <span className={s.title}>homeworks 10</span>
 
             {/*should work (должно работать)*/}
             {loading
@@ -27,10 +28,10 @@ function HW10() {
                 )
             }
 
-            <hr/>
+            {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*<Alternative/>*/}
-            <hr/>
+            {/*<hr/>*/}
         </div>
     )
 }

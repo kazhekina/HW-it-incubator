@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useState} from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import s from './HW4.module.css'
 import SuperButton from './common/c2-SuperButton/SuperButton'
@@ -25,17 +25,19 @@ function HW4() {
             <span className={s.title}>homeworks 4</span>
 
             <div className={s.column}>
-                <SuperInputText
-                    value={text}
-                    onChangeText={setText}
-                    onEnter={showAlert}
-                    error={error}
-                    // spanClassName={s.testSpanError}
-                />
+                <div className={s.wrapperInput}>
+                    <SuperInputText
+                        value={text}
+                        onChangeText={setText}
+                        onEnter={showAlert}
+                        error={error}
+                        // spanClassName={s.testSpanError}
+                    />
 
-                <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
-                />
+                    <SuperInputText
+                        className={s.blue} // проверьте, рабоет ли смешивание классов
+                    />
+                </div>
 
                 {/*----------------------------------------------------*/}
 
